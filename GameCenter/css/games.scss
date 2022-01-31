@@ -1,0 +1,14 @@
+@import 'components/mini_scss_framework.scss';
+
+section.games{
+    @extend %all_content_to_center;
+    background: white;
+    padding: 1.5vw;
+    
+    article{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    @import 'components/gameBlock.scss';
+}

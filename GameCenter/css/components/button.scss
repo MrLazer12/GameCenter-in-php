@@ -1,0 +1,15 @@
+button{
+    border-bottom: #AA2E0B;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 1.1vh 1vw;
+    background: rgb(140,35,7);
+    background: linear-gradient(90deg, rgba(140,35,7,1) 15%, rgba(195,43,13,1) 100%);
+    &:hover{
+        transition: 1s ease;
+        cursor: pointer;
+        color: black;
+        background: linear-gradient(90deg, rgba(195,43,13,1) 100%, rgba(140,35,7,1) 15%);
+    }
+}

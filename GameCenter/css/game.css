@@ -1,0 +1,150 @@
+textarea{
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    width: 100%;
+}
+
+section.games > h1{
+    margin: 0vh 0 2vh;
+    padding: 1.5vh 2vw;
+    font-weight: bold;
+    font-size: 1.6em;
+    color: #FFFFFF;
+    background: #232323;
+    text-shadow: 0 0 5px #FFF, 
+                 0 0 10px #FFF, 
+                 0 0 15px #FFF,
+                 0 0 20px #8D2914, 
+                 0 0 30px #8D2914, 
+                 0 0 40px #8D2914, 
+                 0 0 55px #8D2914, 
+                 0 0 75px #8D2914;
+}
+section.games main{
+    display: flex;
+    flex-flow: wrap;
+}
+section.games main p{
+    width: 85%;
+    font-size: 1.4em;
+    text-align: justify;
+}
+section.games div.logo{
+    padding: 1vw;
+    width: 15%;
+    height: 50%;
+    font-size: 1.6em;
+    text-align: left;
+}
+section.games div.logo img{
+    width: 100%;
+}
+
+.rating {
+float:left;
+}
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+follow these rules. Every browser that supports :checked also supports :not(), so
+it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+position:absolute;
+top:-9999px;
+clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+float:right;
+width:1em;
+padding:0 .1em;
+overflow:hidden;
+white-space:nowrap;
+cursor:pointer;
+font-size: 140%;
+line-height:1.2;
+color:#ddd;
+text-shadow:1px 1px #bbb, 2px 2px #666, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:before {
+content: '★ ';
+}
+
+.rating > input:checked ~ label {
+color: #f70;
+text-shadow:1px 1px #c60, 2px 2px #940, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+color: gold;
+text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+color: #ea0;
+text-shadow:1px 1px goldenrod, 2px 2px #B57340, .1em .1em .2em rgba(0,0,0,.5);
+}
+
+.rating > label:active {
+position:relative;
+top:2px;
+left:2px;
+}
+
+/* end of Lea's code */
+
+/*
+* Clearfix from html5 boilerplate
+*/
+
+.clearfix:before,
+.clearfix:after {
+content: " "; /* 1 */
+display: table; /* 2 */
+}
+
+.clearfix:after {
+clear: both;
+}
+
+/*
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+
+.clearfix {
+*zoom: 1;
+}
+
+form.comments{
+    width: 85%;
+}
+form.comments fieldset{
+    padding: 3vh 1vw;
+}
+
+.comment{
+    display: flex;
+    border-bottom: 0.2vw solid black;
+    margin-bottom: 2vh;
+    padding-bottom: 1vh;
+}
+.comment div{
+    text-align: center;
+    width: 10%;
+}
+.comment p{
+    width: 88%;
+    font-size: 1.15em;
+    text-align: justify;
+}
+
+.comment div h1{
+    font-size: 1em;
+    font-weight: bold;
+}

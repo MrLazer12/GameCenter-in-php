@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+.Contacts {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.Contacts h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+.Contacts h1 {
+  font-weight: bold;
+  font-size: 2em;
+  margin: 2vh 0;
+  color: #af1111;
+}
+
+.column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Contacts iframe, .Contacts form input, .Contacts form textarea {
+  border: 0.2vw solid #CACACA;
+}
+
+.Contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 1vh 2vw;
+  font-size: 1.2em;
+  height: 100vh;
+  background: white;
+}
+
+.Contacts iframe {
+  width: 80%;
+  height: 61%;
+}
+
+.Contacts div:first-of-type, .Contacts form {
+  width: 50%;
+}
+
+.Contacts address {
+  color: #7c7c7c;
+  font-weight: bold;
+}
+
+.Contacts address dt {
+  padding: 1.5vh 0;
+}
+
+.Contacts address dd:last-of-type {
+  padding-top: 1.5vh;
+}
+
+.Contacts address dd:last-of-type a {
+  color: #B32F08;
+}
+
+.Contacts form button {
+  border-bottom: #AA2E0B;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 1.1vh 1vw;
+  background: #8c2307;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #8c2307), to(#c32b0d));
+  background: linear-gradient(90deg, #8c2307 15%, #c32b0d 100%);
+}
+
+.Contacts form button:hover {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  cursor: pointer;
+  color: black;
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #c32b0d), color-stop(15%, #8c2307));
+  background: linear-gradient(90deg, #c32b0d 100%, #8c2307 15%);
+}
+
+.Contacts form button {
+  margin-top: 2vh;
+  margin-right: 1vw;
+  border-radius: 5px;
+}
+
+.Contacts form input {
+  color: #727272;
+  border-width: 0.13vw;
+  padding: 5px 20px 8px;
+  background: #fff;
+  width: 100%;
+  height: 37px;
+  margin-bottom: 2vh;
+}
+
+.Contacts form textarea {
+  color: #727272;
+  height: 287px;
+  overflow: auto;
+  border-width: 0.13vw;
+  padding: 5px 20px 8px;
+  background: #fff;
+  width: 100%;
+}
+/*# sourceMappingURL=Contacts.css.map */

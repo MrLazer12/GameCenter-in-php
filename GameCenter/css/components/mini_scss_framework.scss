@@ -1,0 +1,24 @@
+//Google fonts -> Orbitron
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+%all_content_to_center{
+	width: 80vw;
+	margin: 0 auto;
+}
+%transition{
+	transition: 1s ease;
+}
+%cursor_pointer{
+	cursor: pointer;
+}
+%font-family-Orbitron{
+	font-family: 'Orbitron', sans-serif;
+}
+
+%h1_title_template{
+    @extend %font-family-Orbitron;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 2vh 0;
+    color: rgb(175, 17, 17);
+}

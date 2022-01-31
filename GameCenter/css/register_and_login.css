@@ -1,0 +1,64 @@
+.message{
+	font-weight: normal;
+	color: white;
+	background: rgba(9,120,202,1);
+	padding: 1vh 1.5vw;
+	display: block;
+
+	font-size: 1.25em;
+	font-family: "Courier New";
+	text-align: center;
+}
+form.login_register,input[type=submit]:hover{
+	-webkit-box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 0px 11px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 0px 11px 0px rgba(50, 50, 50, 0.75);			
+}
+form.login_register{
+	padding: 1.3vw;
+	width: 32%;
+	margin: 0 auto;
+	border: 3px solid #b9b9b9;
+	border-radius: 0.2vw;
+	background: white;
+}
+
+form.login_register fieldset{
+	padding: 1vw;
+	margin-bottom: 2vh;
+}
+form.login_register fieldset, form fieldset main > div input{
+	border-color: #ababab;
+}
+form.login_register fieldset legend{
+	color: rgba(9,120,202,1);
+	font-weight: bolder;
+	font-size: 1.4em;
+}
+form.login_register fieldset main{
+	display: flex;
+	justify-content: center;
+}
+form.login_register fieldset main > div:first-of-type{
+	text-align: right;
+}
+form.login_register fieldset main > div{
+	display: flex;
+	flex-flow: wrap column;
+}
+form.login_register fieldset main > div label{
+	font-weight: bold;
+	padding-right: 1vw;
+	padding-bottom: 3vh;
+}
+form.login_register fieldset main > div label:hover{
+	cursor: pointer;
+	transition: 1s ease;
+	color: rgba(9,120,202,1);
+}
+
+form.login_register fieldset main > div input{
+	border-radius: 0.45vw;
+	padding: 0.5vh 0.4vw;
+	margin-bottom: 2vh;
+}

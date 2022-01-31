@@ -1,0 +1,20 @@
+button {
+  border-bottom: #AA2E0B;
+  color: white;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 1.1vh 1vw;
+  background: #8c2307;
+  background: -webkit-gradient(linear, left top, right top, color-stop(15%, #8c2307), to(#c32b0d));
+  background: linear-gradient(90deg, #8c2307 15%, #c32b0d 100%);
+}
+
+button:hover {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  cursor: pointer;
+  color: black;
+  background: -webkit-gradient(linear, left top, right top, color-stop(100%, #c32b0d), color-stop(15%, #8c2307));
+  background: linear-gradient(90deg, #c32b0d 100%, #8c2307 15%);
+}
+/*# sourceMappingURL=button.css.map */
